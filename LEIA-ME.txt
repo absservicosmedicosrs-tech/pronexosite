@@ -1,0 +1,37 @@
+SITE PRONEXO — Medicina e Segurança do Trabalho
+================================================
+
+Conteúdo da pasta
+-----------------
+index.html                              Página inicial
+blog.html                               Lista de artigos do blog
+ausencias-do-empregado-ao-trabalho.html Artigo do blog (Art. 473 da CLT)
+politica-de-privacidade.html            Política de Privacidade (LGPD)
+robots.txt                              Libera o site para o Google
+assets/style.css                        Visual do site (cores e fontes do logo)
+assets/main.js                          Menu do celular
+assets/img/                             Logos e ícone do site (favicon)
+
+Como publicar
+-------------
+O site é estático (só HTML, CSS e imagens). Funciona em qualquer hospedagem.
+
+Opção 1 — Hostinger, Locaweb, KingHost, HostGator etc.
+  Abra o Gerenciador de Arquivos da hospedagem, entre na pasta public_html
+  e envie TODO o conteúdo desta pasta (não a pasta em si). Mantenha a pasta assets.
+
+Opção 2 — Netlify (grátis)
+  Acesse app.netlify.com/drop e arraste esta pasta inteira para a página.
+  Depois, em "Domain settings", conecte o seu domínio (ex.: pronexo.com.br).
+
+Opção 3 — Vercel ou Cloudflare Pages (grátis)
+  Crie um projeto novo e envie esta pasta como "static site".
+
+Para alterar informações
+------------------------
+Telefone, WhatsApp, e-mail e endereço aparecem nos arquivos .html.
+Para trocar em todas as páginas de uma vez, use "Localizar e substituir" em
+um editor de texto (ex.: VS Code ou Notepad++) em todos os arquivos:
+  - WhatsApp: (54) 99910-5888  e  5554999105888
+  - Telefone: (54) 2137-5122  e  +555421375122
+  - E-mail:   absservicosmedicos.rs@gmail.com
