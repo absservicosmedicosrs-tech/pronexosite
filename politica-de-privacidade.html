@@ -758,6 +758,41 @@ ul { margin: 0; padding: 0; list-style: none; }
   .nr__nome { font-size: .8rem; }
 }
 
+/* ---------- Celular: compactação extra (~20%) ---------- */
+@media (max-width: 600px) {
+  html { font-size: 14px; }
+  body { font-size: 13.5px; line-height: 1.55; }
+  .secao { padding-block: 34px; }
+  .secao__topo { margin-bottom: 20px; }
+  .banner .wrap { padding-block: 26px 30px; gap: 22px; }
+  .principios, .servicos, .laudos, .diferenciais, .incompany__cards, .credenciadas__lista, .treino__itens, .pericias, .pericias__areas, .etapas, .canais { gap: 10px; }
+  .principio { padding: 18px 16px; }
+  .principio .icon { font-size: 32px; }
+  .servico { padding: 16px 14px; }
+  .servico .icon { font-size: 32px; }
+  .diferencial, .laudo { padding: 16px 14px; }
+  .ic-card { padding: 14px; }
+  .area { padding: 16px 14px; }
+  .etapas li { padding: 12px; }
+  .comparativo__col { padding: 16px 14px; }
+  .comparativo li { padding: 7px 0; }
+  .criador__cartao { padding: 18px 16px; }
+  .credenciadas__lista li { padding: 12px 14px; }
+  .alerta, .consultoria, .resultados { padding: 18px 16px; }
+  .centro { margin-top: 22px; }
+  .nrs-bloco, .cadeia-bloco { margin-top: 22px; }
+  .rodape .wrap { padding-block: 32px 26px; gap: 20px; }
+  .sobre { gap: 20px; }
+  .sobre__arte { max-width: 180px; }
+  .contato { gap: 22px; }
+  .mapa iframe { height: 220px; }
+}
+@media (max-width: 600px) {
+  .sobre__arte { display: none; }
+  .servico { grid-template-columns: 34px 1fr; align-items: start; gap: 12px; }
+  .servico .icon { font-size: 28px; justify-self: start; }
+}
+
 </style>
 </head>
 <body>
